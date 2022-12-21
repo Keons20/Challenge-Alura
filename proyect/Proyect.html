@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="sttyle.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>PROYECT A</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+
+            <div class="logo">
+                <img class="logo1" src="Vector.png">
+                
+            </div>
+
+
+            <div class="left">
+                <textarea class="inptext" id="inputTexto"type="text" placeholder= "Ingrese el texto aquí"></textarea>
+            </div>
+
+
+            <div class="right">
+                <img id="personaje" src="personaje.png">
+                <h1 id="textclient">Ningún mensaje fue encontrado</h1>
+                <textarea id="textclient2" name="name" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar</textarea>
+                <button id="copy" type="button" name="button" onclick="copiar()">Copiar</button>
+            </div>
+
+
+           
+            <div class="izq"> 
+                <p>&#8520;
+                    Solo minúsculas y sin acentos</p>  
+                <button type="button" class="b-encriptar" onclick="encriptar()">Encriptar!</button>
+                <button type="button" class="b-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                
+            </div> 
+                
+        </div>
+    </body>
+</html>
